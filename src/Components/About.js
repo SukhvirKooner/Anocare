@@ -1,5 +1,5 @@
 import React from "react";
-import Doctor from "../Assets/about-us-Photoroom.png";
+import Doctor from "../Assets/about-final-removebg-preview.png";
 import SolutionStep from "./SolutionStep";
 import "../Styles/About.css";
 
