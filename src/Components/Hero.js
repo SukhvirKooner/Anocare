@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Doctor from "../Assets/doctor-picture.png";
+import Doctor from "../Assets/Hands-removebg-preview.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarCheck, faAngleUp } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate  } from "react-router-dom";
@@ -36,14 +36,12 @@ function Hero() {
     <div className="section-container">
       <div className="hero-section">
         <div className="text-section">
-          <p className="text-headline">❤️ Health comes first</p>
+          <p className="text-headline">❤️Get the Help You Need</p>
           <h2 className="text-title">
-            Find your Doctor and make an Appointments
+            Ask Anything, Stay Anonymous
           </h2>
           <p className="text-descritpion">
-            Talk to online doctors and get medical advice, online prescriptions,
-            refills and medical notes within minutes. On-demand healthcare
-            services at your fingertips.
+            Get one on one insight from verified doctors on pressing and personal health care issues.
           </p>
           <button
             className="text-appointment-btn"
@@ -52,22 +50,7 @@ function Hero() {
           >
             <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
           </button>
-          <div className="text-stats">
-            <div className="text-stats-container">
-              <p>145k+</p>
-              <p>Receive Patients</p>
-            </div>
-
-            <div className="text-stats-container">
-              <p>50+</p>
-              <p>Expert Doctors</p>
-            </div>
-
-            <div className="text-stats-container">
-              <p>10+</p>
-              <p>Years of Experience</p>
-            </div>
-          </div>
+          
         </div>
 
         <div className="hero-image-section">

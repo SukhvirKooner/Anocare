@@ -1,10 +1,11 @@
 .ba-section {
     padding: 32px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     gap: 24px;
     background-color: white;
+    padding-left: 100px;
 }
 /* Image */
 .ba-image-content {
@@ -34,7 +35,7 @@
     position: absolute;
     width: 75%;
     height: 4px;
-    background-color: #9D2553;
+    background-color: #046307;
     border-radius: 8px;
     left: 0;
     bottom: -12px;
@@ -68,7 +69,7 @@
     border: 1px solid transparent;
     border-radius: 50px;
     outline: transparent;
-    background-color: #1A8EFD;
+    background-color: #046307;
     font-size: 20px;
     font-family: 'Rubik', sans-serif;
     letter-spacing: .8px;
@@ -76,9 +77,9 @@
     transition: all .4s ease;
 }
 .ba-appointment-btn:hover {
-    color: #1A8EFD;
+    color: #046307;
     background-color: transparent;
-    border: 1px solid #1A8EFD;
+    border: 1px solid #046307;
 }
 /* Responsive */
 @media screen and (max-width: 1000px) {

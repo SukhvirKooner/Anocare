@@ -12,41 +12,34 @@ function Info() {
         </h3>
         <p className="info-description">
           We bring healthcare to your convenience, offering a comprehensive
-          range of on-demand medical services tailored to your needs. Our
-          platform allows you to connect with experienced online doctors who
-          provide expert medical advice, issue online prescriptions, and offer
+          range of on-demand medical services tailored to your needs. At ANOCARE we are on a journey to stand by teens seeking
+          answers to sexual health questions. Our
+          platform allows you to connect with experienced  doctors who
+          provide correct medical advice and offer
           quick refills whenever you require them.
         </p>
       </div>
 
       <div className="info-cards-content">
-        <InformationCard
-          title="Emergency Care"
-          description="Our Emergency Care service is designed to be your reliable support
-            in critical situations. Whether it's a sudden illness, injury, or
-            any medical concern that requires immediate attention, our team of
-            dedicated healthcare professionals is available 24/7 to provide
-            prompt and efficient care."
-          icon={faTruckMedical}
+        <InformationCard 
+          title="Our vision"
+          description=" Our commitment is to empower
+                teens through anonymous posts and connect them with qualified
+                doctors for guidance and support."
+          
         />
 
         <InformationCard
-          title="Heart Disease"
-          description="Our team of experienced cardiologists and medical experts use
-            state-of-the-art technology to assess your cardiovascular health and
-            design personalized treatment plans. From comprehensive screenings
-            to advanced interventions, we are committed to helping you maintain
-            a healthy heart and lead a fulfilling life."
-          icon={faHeartPulse}
+          title="Our goal"
+          description="Foster a trustful platform that provides correct information and does not misguide our youth individual "
+          
         />
 
         <InformationCard
-          title="Dental Care"
-          description="Smile with confidence as our Dental Care services cater to all your
-            oral health needs. Our skilled dentists provide a wide range of
-            treatments, from routine check-ups and cleanings to cosmetic
-            procedures and restorative treatments."
-          icon={faTooth}
+          title="Explore more about ANOCARE"
+          description="
+            Customised dashboard for each member (period tracker, contraseptive methods, detailed articles on relevant issues ). "
+          
         />
       </div>
     </div>

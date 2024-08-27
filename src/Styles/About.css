@@ -1,10 +1,11 @@
 .about-section {
     padding: 32px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     gap: 24px;
-    background: linear-gradient(to right, #ECF2FF, #FBFCFF);
+    background: linear-gradient(to right, rgb(176, 240, 176), #ffffff);
+    padding-left: 100px;
 }
 /* Image */
 .about-image-content {
@@ -19,6 +20,7 @@
 /* Text */
 .about-text-content {
     width: 50%;
+    
 }
 .about-title {
     font-family: 'Poppins', sans-serif;
@@ -33,7 +35,7 @@
     position: absolute;
     width: 75%;
     height: 4px;
-    background-color: #9D2553;
+    background-color: #046307;
     border-radius: 8px;
     left: 0;
     bottom: -12px;
@@ -72,7 +74,7 @@
     line-height: 1.6rem;
 }
 .fa-icon {
-    color: #9D2553;
+    color: #056c0a;
 }
 /* Responsive */
 @media screen and (max-width: 1000px) {
