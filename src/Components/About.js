@@ -6,6 +6,7 @@ import "../Styles/About.css";
 function About() {
   return (
     <div className="about-section" id="about">
+      
 
       <div className="about-text-content">
         <h3 className="about-title">
@@ -34,6 +35,9 @@ function About() {
           title="Get Your Answers"
           
         />
+      </div>
+      <div className="about-image-content">
+        <img src={Doctor} alt="Doctor Group" className="about-image1" />
       </div>
     </div>
   );

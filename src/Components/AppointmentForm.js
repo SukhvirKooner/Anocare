@@ -72,8 +72,8 @@ function AppointmentForm() {
   return (
     <div className="appointment-form-section">
       <h1 className="legal-siteTitle">
-        <Link to="/">
-          Health <span className="legal-siteSign">+</span>
+        <Link to="/" style={{color:"#21d451"}}>
+          ANOCARE
         </Link>
       </h1>
 
@@ -159,7 +159,7 @@ function AppointmentForm() {
       </div>
 
       <div className="legal-footer">
-        <p>© 2013-2023 Health+. All rights reserved.</p>
+        <p>ANOCARE. All rights reserved.</p>
       </div>
 
       <ToastContainer autoClose={5000} limit={1} closeButton={false} />
