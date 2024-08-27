@@ -33,7 +33,7 @@ function BookAppointment() {
           <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#056c0a" }} /> Improved Personal Hygiene in Teens
         </p>
         <p className="ba-checks">
-          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#056c0a" }} />  At your tips 
+          <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#056c0a" }} /> Services at your tips 
         </p>
         <p className="ba-checks">
           <FontAwesomeIcon icon={faCircleCheck} style={{ color: "#056c0a" }} /> Nominal fees

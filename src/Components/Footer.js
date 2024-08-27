@@ -29,15 +29,9 @@ function Footer() {
             <li>
               <a href="#services"> Services at your tips</a>
             </li>
-            <li>
-              <a href="#services">Dental Care</a>
-            </li>
-            <li>
-              <a href="#services">Prescription</a>
-            </li>
-            <li>
-              <a href="#services">Insights for doctors</a>
-            </li>
+            
+            
+            
           </ul>
         </div>
 
@@ -45,20 +39,16 @@ function Footer() {
           <p className="ft-list-title">Legal</p>
           <ul className="ft-list-items">
             <li>
-              <Link to={"/legal"}>General Info</Link>
+              <Link >General Info</Link>
             </li>
             <li>
-              <Link to={"/legal"}>Privacy Policy</Link>
+              <Link >Privacy Policy</Link>
             </li>
             <li>
-              <Link to={"/legal"}>Terms of Services</Link>
+              <Link >Terms of Services</Link>
             </li>
-            <li>
-              <Link to={"/legal"}>Consultations</Link>
-            </li>
-            <li>
-              <Link to={"/legal"}>How it Works</Link>
-            </li>
+            
+           
           </ul>
         </div>
 
@@ -66,18 +56,18 @@ function Footer() {
           <p className="ft-list-title">Talk To Us</p>
           <ul className="ft-list-items">
             <li>
-              <a href="mailto:support@healthplus.com">support@healthplus.com</a>
+              <a href="mailto:anocare@anocare.com">anocare@anocare.com</a>
             </li>
             <li>
-              <a href="mailto:appointment@healthplus.com">
-                appointment@healthplus.com
+              <a href="mailto:appointment@anocare.com">
+                appointment@anocare.com
               </a>
             </li>
             <li>
-              <a href="tel:+022 5454 5252">+022 5454 5252</a>
+              <a href="tel:+022 5454 5252">+0000000000</a>
             </li>
             <li>
-              <a href="tel:+022 2326 6232">+022 2326 6232</a>
+              <a href="tel:+022 2326 6232">+0000000000</a>
             </li>
           </ul>
         </div>
