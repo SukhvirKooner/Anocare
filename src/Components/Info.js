@@ -1,6 +1,5 @@
 import React from "react";
 import InformationCard from "./InformationCard";
-import { faHeartPulse, faTruckMedical, faTooth } from "@fortawesome/free-solid-svg-icons";
 import "../Styles/Info.css";
 
 function Info() {
@@ -19,7 +18,6 @@ function Info() {
           quick refills whenever you require them.
         </p>
       </div>
-
       <div className="info-cards-content">
         <InformationCard 
           title="Our vision"
